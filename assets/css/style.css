@@ -1,0 +1,70 @@
+*{
+    overflow: hidden;
+    background-color: #344649;
+    display: inline;
+}
+body{
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+    font-size: 3rem;
+    background-color: transparent;
+}
+.header-footer{
+    margin-left: 0% -1%;
+    width: 102%;
+    padding: 1%;
+    background-color:#6D7A8A;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+.spaced-vertically {
+    margin-top: 15%;
+}
+
+.main-box{
+    background-color: #E1E7E9;
+    padding: 1%;
+}
+.paragraph{
+    overflow: hidden;
+    background-color: transparent;
+
+}
+.profile-pic{
+    max-width: 10rem;
+    max-height: auto;
+    transform: rotate(270deg);
+    background-color: transparent;
+}
+.profile-header{
+    width: 100%;
+    background-color: transparent;
+    display: block;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    *{
+        text-align: center;
+    }
+    .main-box{
+        text-align: center;
+    }
+    .paragraph{
+        width: 90%;
+        text-align: initial;
+    }
+    .profile-header{
+        width: 90%;
+        background-color: transparent;
+        padding-bottom: 5%;
+    }
+    .row{
+        text-align: center;
+    }
+}
