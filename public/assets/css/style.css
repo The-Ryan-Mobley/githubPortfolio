@@ -1,0 +1,150 @@
+*{
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #344649;
+    display: inline;
+}
+body{
+    overflow-x: none;
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+    font-size: 3rem;
+    background-color: transparent;
+}
+h2{
+    background-color: transparent;
+}
+b{
+    background-color: #E1E7E9;
+}
+header{
+    border-bottom-style: outset;
+    border-bottom-width: 1%;
+    border-bottom-color: #58fff4;
+}
+.header-footer{
+    overflow: none;
+    margin-left: 0% -1%;
+    width: 102%;
+    padding: 3%;
+    background-color:#6D7A8A;
+}
+.banner-row{
+    background-color:#6D7A8A;
+    overflow: hidden;
+
+}
+#title{
+    font-size: 2rem;
+    color: #A4C6C4;
+    background-color:#6D7A8A;
+    
+}
+footer{
+    overflow-x: none;
+    bottom: 0;
+    position: relative;
+    border-top-style: outset;
+    border-top-width: 1%;
+    border-top-color: #58fff4;
+    
+}
+.spaced-vertically {
+    margin-top: 15%;
+}
+
+.main-box{
+    background-color: #E1E7E9;
+    padding: 2%;
+}
+.profile-pic{
+    float:left;
+    padding: 2%;
+    max-width: 10rem;
+    max-height: auto;
+    transform: rotate(270deg);
+    background-color: transparent;
+}
+.paragraph{
+    width: 100%;
+    line-height: 2rem;
+    background-color: #E1E7E9;
+    padding: 1%;
+    margin: 1%;
+    margin-bottom: 10%;
+}
+.body-box{
+    background-color: #E1E7E9;
+    width: 90%;
+    margin-left: 5%;
+}
+.text-zone{
+    background-color: #E1E7E9;
+}
+.profile-header{
+    width: 100%;
+    background-color: transparent;
+    display: block;
+}
+.centered{
+    text-align: center;
+}
+.bottom-text{
+    background-color: #6D7A8A;
+    color: #E1E7E9;
+}
+.message{
+    width: 100%;
+    background-color: #E1E7E9;
+}
+.small-box{
+    margin-left:0.5%;
+    
+}
+.media-links{
+    background-color: transparent;
+}
+#resume{
+    background-color: transparent;
+}
+.small-box:hover{
+    opacity: 0.5;
+}
+.linkbox{
+    max-width:3.125em;
+    max-height:auto;
+    
+}
+#firstbox{
+    margin-left: 3%;
+}
+.small-title{
+    background-color: transparent;
+    color:#4aaaa5;
+    font-size:1.2em;
+    
+}
+@media (min-width: 320px) and (max-width: 480px){
+    *{
+        text-align: center;
+    }
+    .main-box{
+        text-align: center;
+    }
+    .paragraph{
+        line-height: 1.5rem;
+        width: 90%;
+        text-align: initial;
+    }
+    .profile-header{
+        width: 90%;
+        background-color: transparent;
+        padding-bottom: 5%;
+    }
+    .row{
+        text-align: center;
+    }
+}
