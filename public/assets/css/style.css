@@ -1,10 +1,10 @@
 *{
     max-width: 100%;
     overflow-x: hidden;
-    background-color: #344649;
     display: inline;
 }
 body{
+    background-color: #344649;
     overflow-x: none;
     align-items: center;
 }
@@ -46,11 +46,10 @@ header{
 footer{
     overflow-x: none;
     bottom: 0;
-    position: relative;
+    position: fixed;
     border-top-style: outset;
     border-top-width: 1%;
     border-top-color: #58fff4;
-    
 }
 .spaced-vertically {
     margin-top: 15%;
@@ -80,6 +79,7 @@ footer{
     background-color: #E1E7E9;
     width: 90%;
     margin-left: 5%;
+    margin-bottom: 10%;
 }
 .text-zone{
     background-color: #E1E7E9;
@@ -105,7 +105,9 @@ footer{
     
 }
 .media-links{
+    margin: 1%;
     background-color: transparent;
+    display: block;
 }
 #resume{
     background-color: transparent;
@@ -114,14 +116,20 @@ footer{
     opacity: 0.5;
 }
 .linkbox{
+    margin: 1%;
+    text-align: left;
     max-width:3.125em;
     max-height:auto;
     
 }
 #firstbox{
-    margin-left: 3%;
+    margin-left: 8%;
+}
+.link-imgs{
+    background-color: transparent;
 }
 .small-title{
+    display: block;
     background-color: transparent;
     color:#4aaaa5;
     font-size:1.2em;
