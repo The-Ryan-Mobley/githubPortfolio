@@ -3,10 +3,6 @@
     display: inline;
 
 }
-
-html{
-
-}
 body{
     background-color: #344649;
     align-items: center;
@@ -36,6 +32,7 @@ header{
     width: 102%;
     padding: 0.5%;
     background-color:#6D7A8A;
+    
 }
 .banner-row{
     background-color:#6D7A8A;
@@ -58,19 +55,13 @@ header{
     background-color:#6D7A8A;
     
 }
-footer{
-    overflow-x: none;
-    bottom: 0;
-    position: fixed;
-    border-top-style: outset;
-    border-top-width: 1%;
-    border-top-color: #58fff4;
-}
+
 .spaced-vertically {
     margin-top: 15%;
 }
 
 .main-box{
+    width: 90%;
     background-color: #E1E7E9;
     padding: 2%;
 }
@@ -103,6 +94,11 @@ footer{
     width: 100%;
     background-color: transparent;
     display: block;
+    color: #36c5bc;
+    border-bottom-style: solid;
+    border-bottom-width: 1%;
+    border-bottom-color: #a6aaac;
+    margin-bottom: 1%;
 }
 
 .bottom-text{
@@ -204,6 +200,10 @@ footer{
 }
 h4{
     font-size: 1.2rem;
+}
+.head-nav{
+    color: #A4C6C4;
+
 }
 
 @keyframes slide-up {

@@ -12,7 +12,7 @@
                         <div class="col-4">
                             <img src={{pic}} alt="portpic" class="screenshot">
                         </div>
-                        <div class="col-4 tech-list">
+                        <div class="col-5 tech-list">
                             <div class="profile-header left">
                             <a class="btn btn-link title-link" href={{url}}><h1>{{projectTitle}}</h1></a>
                             
@@ -20,13 +20,11 @@
                             <h4><strong>This project was built with: </strong><br></h4>
                             <p>&#x9 {{technology}}</p>
                         </div>
-                        
-                    </div>
-                    <div class="col-12">
-                            <h4 class="descSummary"><strong>Summary: </strong><br></h4>
-                            <p class="portfolio-summary">{{projectDescription}}</p>
+                        <div class="col-12">
+                            <p class="portfolio-summary"><strong>Summary: </strong><br>{{projectDescription}}</p>
                             <a class="btn btn-link doc-link" href={{repo}}>Github repo</a>
                         </div>
+                    </div>
                         
                 </div>
                 {{/each}}
