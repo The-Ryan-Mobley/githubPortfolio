@@ -1,5 +1,5 @@
-USE classact;
-DROP TABLE IF EXISTS projects;
+USE efa9xctqhchjw1xm;
+TRUNCATE efa9xctqhchjw1xm.projects;
 CREATE TABLE projects(
 	id INTEGER(10) AUTO_INCREMENT NOT NULL,
     projectTitle VARCHAR(50) NOT NULL,
