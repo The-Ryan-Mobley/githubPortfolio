@@ -153,7 +153,8 @@ footer{
 .portlist{
     display: block;
 }
-.portfolio-peice{
+.portfolio-piece{
+    padding: 2%;
     float: left;
     position: relative;
 }

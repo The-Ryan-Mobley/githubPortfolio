@@ -13,16 +13,15 @@
                             <img src={{pic}} alt="portpic" class="screenshot">
                             <div class="col-3">
                                 <div class="link-container">
-                                    <button type="button" class="btn btn-link doc-link" href={{url}}>{{url}}</button>
-                                    <button type="button" class="btn btn-link doc-link" href={{repo}}>Github
-                                        repo</button>
+                                    <a class="btn btn-link doc-link" href={{url}}>{{url}}</a>
+                                    <a class="btn btn-link doc-link" href={{repo}}>Github repo</a>
                                 </div>
                             </div>
                         </div>
                         <div class="col-2">
                             <ul class="people_list">
                                 {{#each technology}}
-                                <li>{{this}}</li>
+                                <li>{{this}}<br></li>
                                 {{/each}}
                             </ul>
                             <p class="technology">{{technology}}</p>
