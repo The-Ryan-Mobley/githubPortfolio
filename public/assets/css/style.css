@@ -26,16 +26,23 @@ header{
     border-bottom-color: #58fff4;
 }
 .header-footer{
-    overflow: none;
+    overflow: hidden;
     margin-left: 0% -1%;
     width: 102%;
-    padding: 3%;
+    padding: 0.5%;
     background-color:#6D7A8A;
 }
 .banner-row{
     background-color:#6D7A8A;
     overflow: hidden;
-
+}
+.head-row{
+    position: relative;
+}
+.site-navs{
+    float: right;
+    position: relative;
+    top: 0.8rem;
 }
 #title{
     font-size: 2rem;
