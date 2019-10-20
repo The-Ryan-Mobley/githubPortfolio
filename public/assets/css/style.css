@@ -1,6 +1,7 @@
 *{
     max-width: 100%;
     display: inline;
+    overflow-x: hidden;
 
 }
 body{
@@ -91,6 +92,7 @@ header{
     background-color: #E1E7E9;
 }
 .profile-header{
+    overflow-y: hidden;
     width: 100%;
     background-color: transparent;
     display: block;
