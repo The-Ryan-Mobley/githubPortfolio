@@ -3,8 +3,8 @@
     display: inline;
 
 }
+
 html{
-    overflow-y:scroll;
 
 }
 body{
@@ -104,9 +104,7 @@ footer{
     background-color: transparent;
     display: block;
 }
-.centered{
-    text-align: center;
-}
+
 .bottom-text{
     background-color: #6D7A8A;
     color: #E1E7E9;
@@ -154,14 +152,70 @@ footer{
     display: block;
 }
 .portfolio-piece{
-    padding: 2%;
+    display: flex;
+    align-items: stretch;
+    padding: 1%;
+    margin: 1%;
     float: left;
     position: relative;
+    border-style: groove;
+    border-width: 1%;
+    border-color: #344649;
 }
+
 .screenshot{
     float: left;
-    max-width: 15rem;
+    max-width: 22rem;
     max-height: auto;
+    border-style:solid;
+    border-color: #344649;
+    border-width: 1%;
+}
+.title-link{
+    /* position: relative; */
+    margin-top: -6%;
+    margin-left: -1%;
+    font-size: 3rem;
+
+}
+
+.doc-link{
+    float: right;
+    margin-top: 2%;
+}
+.tech-list{
+    position: relative;
+    float: left;
+}
+.descSummary{
+    float: left;
+}
+.portfolio-summary{
+    float: left;
+}
+.slider{
+    animation: slide-up 0.4s ease;   
+}
+.left{
+    text-align: left;
+}
+.centered{
+    text-align: center;
+}
+h4{
+    font-size: 1.2rem;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 @media (min-width: 320px) and (max-width: 480px){
     *{

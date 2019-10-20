@@ -6,30 +6,28 @@
             </div>
             <div class="port-list">
                 {{#each element}}
-                <div class="col-12">
-                    <div class="portfolio-piece">
-                        <div class="col-5">
-                            <h2>{{projectTitle}}</h2>
+                <div class="row portfolio-piece slider">
+                    <div class="col-12">
+                        
+                        <div class="col-4">
                             <img src={{pic}} alt="portpic" class="screenshot">
-                            <div class="col-3">
-                                <div class="link-container">
-                                    <a class="btn btn-link doc-link" href={{url}}>{{url}}</a>
-                                    <a class="btn btn-link doc-link" href={{repo}}>Github repo</a>
-                                </div>
-                            </div>
                         </div>
-                        <div class="col-2">
-                            <ul class="people_list">
-                                {{#each technology}}
-                                <li>{{this}}<br></li>
-                                {{/each}}
-                            </ul>
-                            <p class="technology">{{technology}}</p>
+                        <div class="col-4 tech-list">
+                            <div class="profile-header left">
+                            <a class="btn btn-link title-link" href={{url}}><h1>{{projectTitle}}</h1></a>
+                            
                         </div>
-                        <div class="col-5">
-                            <p class="portfolio-summary">{{projectDescription}}</p>
+                            <h4><strong>This project was built with: </strong><br></h4>
+                            <p>&#x9 {{technology}}</p>
                         </div>
+                        
                     </div>
+                    <div class="col-12">
+                            <h4 class="descSummary"><strong>Summary: </strong><br></h4>
+                            <p class="portfolio-summary">{{projectDescription}}</p>
+                            <a class="btn btn-link doc-link" href={{repo}}>Github repo</a>
+                        </div>
+                        
                 </div>
                 {{/each}}
             </div>
