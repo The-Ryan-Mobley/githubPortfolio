@@ -4,6 +4,9 @@
     overflow-x: hidden;
 
 }
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: relative;
+}
 html{
     overflow-x: hidden;
 }
