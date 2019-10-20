@@ -4,6 +4,9 @@
     overflow-x: hidden;
 
 }
+html{
+    overflow-x: hidden;
+}
 body{
     background-color: #344649;
     align-items: center;
