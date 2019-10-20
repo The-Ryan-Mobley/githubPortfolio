@@ -5,6 +5,7 @@
 
 }
 .navbar-fixed-top, .navbar-fixed-bottom {
+    z-index: 2;
     position: relative;
 }
 html{
