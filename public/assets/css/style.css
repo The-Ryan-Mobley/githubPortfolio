@@ -1,14 +1,19 @@
 *{
     max-width: 100%;
-    overflow-x: hidden;
     display: inline;
+
+}
+html{
+    overflow-y:scroll;
+
 }
 body{
     background-color: #344649;
-    overflow-x: none;
     align-items: center;
 }
-
+ul{
+    overflow-y: auto;
+}
 h1{
     margin: 0;
     font-size: 3rem;
@@ -43,6 +48,9 @@ header{
     float: right;
     position: relative;
     top: 0.8rem;
+}
+.btn-link{
+    background: transparent;
 }
 #title{
     font-size: 2rem;
@@ -141,6 +149,18 @@ footer{
     color:#4aaaa5;
     font-size:1.2em;
     
+}
+.portlist{
+    display: block;
+}
+.portfolio-peice{
+    float: left;
+    position: relative;
+}
+.screenshot{
+    float: left;
+    max-width: 15rem;
+    max-height: auto;
 }
 @media (min-width: 320px) and (max-width: 480px){
     *{

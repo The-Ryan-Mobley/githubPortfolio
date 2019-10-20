@@ -4,33 +4,36 @@
             <div class="profile-header">
                 <h1>Portfolio</h1>
             </div>
-            {{#each element}}
-            <div class="col-12">
-                <div class="portfolio-piece">
-                    <div class="col-5">
-                        <h2>{{projectTitle}}</h2>
-                        <img src={{pic}} alt="portpic" class="screenshot">
-                        <div class="col-3">
-                            <div class="link-container">
-                                <button type="button" class="btn btn-link doc-link" href={{url}}>{{url}}</button>
-                                <button type="button" class="btn btn-link doc-link" href={{repo}}>Github repo</button>
+            <div class="port-list">
+                {{#each element}}
+                <div class="col-12">
+                    <div class="portfolio-piece">
+                        <div class="col-5">
+                            <h2>{{projectTitle}}</h2>
+                            <img src={{pic}} alt="portpic" class="screenshot">
+                            <div class="col-3">
+                                <div class="link-container">
+                                    <button type="button" class="btn btn-link doc-link" href={{url}}>{{url}}</button>
+                                    <button type="button" class="btn btn-link doc-link" href={{repo}}>Github
+                                        repo</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-2">
-                        <ul class="people_list">
-                            {{#each technology}}
-                            <li>{{this}}</li>
-                            {{/each}}
-                        </ul>
-                        <p class="technology">{{technology}}</p>
-                    </div>
-                    <div class="col-5">
-                        <p class="portfolio-summary">{{projectDescription}}</p>
+                        <div class="col-2">
+                            <ul class="people_list">
+                                {{#each technology}}
+                                <li>{{this}}</li>
+                                {{/each}}
+                            </ul>
+                            <p class="technology">{{technology}}</p>
+                        </div>
+                        <div class="col-5">
+                            <p class="portfolio-summary">{{projectDescription}}</p>
+                        </div>
                     </div>
                 </div>
+                {{/each}}
             </div>
-            {{{/each}}}
         </div>
     </div>
 </div>
