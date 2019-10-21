@@ -300,4 +300,7 @@ h4{
     .paragraph{
         line-height: 2.5rem;
     }
+    .title-link{
+        margin-top: -4%
+    }
 }
