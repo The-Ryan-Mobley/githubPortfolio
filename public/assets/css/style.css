@@ -5,8 +5,7 @@
 }
 
 html{
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow: scroll;
 }
 body{
     background-color: #344649;
