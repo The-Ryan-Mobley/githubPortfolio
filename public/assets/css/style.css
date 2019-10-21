@@ -1,10 +1,11 @@
 *{
-    max-width: 100%;
-    display: inline;
+    
 
 }
 
 html{
+    max-width: 100%;
+    display: inline;
     overflow: scroll;
 }
 body{
@@ -294,4 +295,9 @@ h4{
         margin-left: -2.5%;
     }
 
+}
+@media (min-width: 1600px){
+    .paragraph{
+        line-height: 2.5rem;
+    }
 }
