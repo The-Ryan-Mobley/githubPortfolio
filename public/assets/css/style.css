@@ -1,14 +1,11 @@
 *{
     max-width: 100%;
     display: inline;
-    overflow-x: hidden;
 
 }
-.navbar-fixed-top, .navbar-fixed-bottom {
-    z-index: 2;
-    position: relative;
-}
+
 html{
+    overflow-y: scroll;
     overflow-x: hidden;
 }
 body{
@@ -214,6 +211,10 @@ h4{
 .head-nav{
     color: #A4C6C4;
 
+}
+.navbar-fixed-top, .navbar-fixed-bottom {
+    z-index: 2;
+    position: relative;
 }
 
 @keyframes slide-up {
