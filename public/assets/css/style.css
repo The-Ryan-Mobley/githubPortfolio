@@ -296,6 +296,11 @@ h4{
     }
 
 }
+@media (min-width: 1200px){
+    .title-link{
+        margin-top: 3%;
+    }
+}
 @media (min-width: 1600px){
     .paragraph{
         line-height: 2.5rem;
