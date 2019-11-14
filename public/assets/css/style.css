@@ -79,6 +79,7 @@ header{
     background-color: transparent;
 }
 .paragraph{
+    text-indent: 40px;
     width: 100%;
     line-height: 2rem;
     background-color: #E1E7E9;
