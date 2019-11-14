@@ -248,6 +248,9 @@ h4{
         width: 90%;
         text-align: initial;
     }
+    .profile-pic{
+        margin: 5%;
+    }
     .profile-header{
         width: 90%;
         background-color: transparent;
