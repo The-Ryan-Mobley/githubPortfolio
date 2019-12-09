@@ -30,6 +30,7 @@ header{
     border-bottom-style: outset;
     border-bottom-width: 1%;
     border-bottom-color: #58fff4;
+    box-shadow: 0px 5px 18px -1px rgba(0,0,0,0.75);
 }
 .header-footer{
     overflow: hidden;
@@ -71,13 +72,13 @@ header{
     padding: 2%;
 }
 .profile-pic{
-    margin-top: 3%;
+    margin: 3% 2%;
     float:left;
-    padding: 2%;
-    max-width: 17.5rem;
+    max-width: 15rem;
     max-height: auto;
     transform: rotate(270deg);
     background-color: transparent;
+    box-shadow: -10px 10px 10px -5px #000000bf;
 }
 .paragraph{
     text-indent: 40px;
@@ -166,6 +167,7 @@ header{
     border-style: groove;
     border-width: 1%;
     border-color: #344649;
+    box-shadow: 10px 10px 10px -5px #000000bf;
 }
 
 .screenshot{
