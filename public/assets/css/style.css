@@ -293,6 +293,7 @@ h4{
         width: 100%;
         height: auto;
         margin-left: 20%;
+        
     }
     .title-link{
         margin-top: 1%;
@@ -303,6 +304,12 @@ h4{
     }
     .profile-pic{
         margin: 5%;
+    }
+
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    .screenshot{
+        margin-right: 5%;
     }
 
 }
